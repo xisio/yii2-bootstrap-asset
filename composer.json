@@ -1,0 +1,29 @@
+{
+	"name": "xisio/yii2-bootstrap-asset",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Denis Warsow",
+			"email": "stdedjub@googlemail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"npm-asset/bootstrap" : "^3.4.1",
+		"yiisoft/yii2": "2.0.*"
+
+	},
+	"autoload": {
+		"psr-4": {
+			"xisio\\bootstrap\\": ""
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	]
+
+}
